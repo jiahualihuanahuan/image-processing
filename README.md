@@ -1,6 +1,6 @@
 # image-processing
 
-## Contrast stretching
+## Contrast Stretching
 p2, p98 = np.percentile(img, (2, 98))
 
 img_rescale = exposure.rescale_intensity(img, in_range=(p2, p98))
